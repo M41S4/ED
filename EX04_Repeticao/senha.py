@@ -4,10 +4,11 @@
 ##uando a senha correta for digitada,  imprimir"✅Senha correta!".
 ##Dica: Use uma repetição (while) e um operador relacional de comparação == (igual) ou != (diferente).
 
-
 senha_correta = "1234"
-senha_user = input()
+senha_user = str(input())
 
 while senha_user != senha_correta:
   print("Senha incorreta")
-    if 
+  senha_user = str(input())
+if senha_user == senha_correta:
+  print("Senha correta")
